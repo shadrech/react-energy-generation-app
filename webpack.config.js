@@ -11,7 +11,7 @@ module.exports = {
     target: 'web',
     entry: {
         app: [
-            './index.js'
+            './index.tsx'
         ],
     },
     output: {
@@ -21,12 +21,12 @@ module.exports = {
     },
     resolve: {
         mainFields: ['browser', 'module', 'main'],
-        extensions: ['.js', '.json', '.jsx']
+        extensions: ['.js', '.json', '.jsx', '.ts', '.tsx']
     },
     module: {
         rules: [
             {
-                test: /\.js(x?)$/,
+                test: /\.(tsx|ts)$/,
                 exclude: /node_modules/,
                 use: 'babel-loader',
             },
