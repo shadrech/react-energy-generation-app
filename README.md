@@ -1,8 +1,10 @@
 # Energy Generation Display App
 
-Simple React application that displays the current mix of energy generation in the UK (i.e. how much nuclear, wind, solar etc.). Uses [hooks](https://reactjs.org/docs/hooks-reference.html), [styled-components](https://www.styled-components.com/), [jest](https://jestjs.io/) for testing along with [react-testing-library](https://testing-library.com/docs/react-testing-library/intro)
+Simple React application that displays the current mix of energy generation in the UK (i.e. how much nuclear, wind, solar etc.)
 
-![alt app screenshot](https://raw.githubusercontent.com/shadrech/react-energy-generation-app/screenshot.png)
+Utilizes [hooks](https://reactjs.org/docs/hooks-reference.html), [styled-components](https://www.styled-components.com/), [jest](https://jestjs.io/) for testing along with [react-testing-library](https://testing-library.com/docs/react-testing-library/intro)
+
+![alt app screenshot](https://github.com/shadrech/react-energy-generation-app/raw/master/screenshot.png)
 
 ## Getting started
 
