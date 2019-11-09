@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EnergyStatBox /> renders correctly as component animates in 1`] = `
+<div>
+  <article
+    class="sc-bdVaJa kkwavi"
+  >
+    <div
+      class="sc-bwzfXH hPCbED"
+    >
+      <svg
+        style="position: absolute;"
+      >
+        <defs>
+          <lineargradient
+            id="lgrad"
+            x1="0%"
+            x2="100%"
+            y1="100%"
+            y2="0%"
+          >
+            <stop
+              offset="0%"
+              stop-color="rgb(49,214,231)"
+            />
+            <stop
+              offset="39%"
+              stop-color="rgb(49,214,231)"
+            />
+            <stop
+              offset="100%"
+              stop-color="rgb(188,135,252)"
+            />
+          </lineargradient>
+        </defs>
+      </svg>
+      <div
+        class="VictoryContainer"
+        style="height: 100%; width: 100%; pointer-events: none; position: relative;"
+      >
+        <svg
+          height="400"
+          role="img"
+          style="pointer-events: all; width: 100%; height: auto;"
+          viewBox="0 0 400 400"
+          width="400"
+        >
+          <g>
+            <path
+              d="M1.1021821192326179e-14,-180A180,180,0,0,1,157.73520240789546,-86.71566133830872L131.44600200657956,-72.26305111525727A150,150,0,0,0,9.184850993605149e-15,-150Z"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: url(#lgrad); padding: 10px; stroke: transparent; stroke-width: 1;"
+              transform="translate(200, 200)"
+            />
+            <path
+              d="M157.73520240789546,-86.71566133830872A180,180,0,1,1,1.26806651969044e-13,-180L1.0567220997420333e-13,-150A150,150,0,1,0,131.44600200657956,-72.26305111525727Z"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: #f4f5f9; padding: 10px; stroke: transparent; stroke-width: 1;"
+              transform="translate(200, 200)"
+            />
+          </g>
+        </svg>
+        <div
+          style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100%; height: auto;"
+        >
+          <svg
+            height="400"
+            style="overflow: visible; width: 100%; height: auto;"
+            viewBox="0 0 400 400"
+            width="400"
+          />
+        </div>
+      </div>
+      <p>
+        <span>
+          0
+        </span>
+        %
+      </p>
+    </div>
+    <div
+      class="sc-htpNat iZGEOS"
+    >
+      <h1>
+        <span>
+          0.0
+        </span>
+      </h1>
+      <h2>
+        Hydro
+      </h2>
+    </div>
+  </article>
+</div>
+`;
+
+exports[`<EnergyStatBox /> renders correctly as component animates in 2`] = `
+<div>
+  <article
+    class="sc-bdVaJa kkwavi"
+  >
+    <div
+      class="sc-bwzfXH hPCbED"
+    >
+      <svg
+        style="position: absolute;"
+      >
+        <defs>
+          <lineargradient
+            id="lgrad"
+            x1="0%"
+            x2="100%"
+            y1="100%"
+            y2="0%"
+          >
+            <stop
+              offset="0%"
+              stop-color="rgb(49,214,231)"
+            />
+            <stop
+              offset="39%"
+              stop-color="rgb(49,214,231)"
+            />
+            <stop
+              offset="100%"
+              stop-color="rgb(188,135,252)"
+            />
+          </lineargradient>
+        </defs>
+      </svg>
+      <div
+        class="VictoryContainer"
+        style="height: 100%; width: 100%; pointer-events: none; position: relative;"
+      >
+        <svg
+          height="400"
+          role="img"
+          style="pointer-events: all; width: 100%; height: auto;"
+          viewBox="0 0 400 400"
+          width="400"
+        >
+          <g>
+            <path
+              d="M1.1021821192326179e-14,-180A180,180,0,0,1,157.73520240789546,-86.71566133830872L131.44600200657956,-72.26305111525727A150,150,0,0,0,9.184850993605149e-15,-150Z"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: url(#lgrad); padding: 10px; stroke: transparent; stroke-width: 1;"
+              transform="translate(200, 200)"
+            />
+            <path
+              d="M157.73520240789546,-86.71566133830872A180,180,0,1,1,1.26806651969044e-13,-180L1.0567220997420333e-13,-150A150,150,0,1,0,131.44600200657956,-72.26305111525727Z"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: #f4f5f9; padding: 10px; stroke: transparent; stroke-width: 1;"
+              transform="translate(200, 200)"
+            />
+          </g>
+        </svg>
+        <div
+          style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100%; height: auto;"
+        >
+          <svg
+            height="400"
+            style="overflow: visible; width: 100%; height: auto;"
+            viewBox="0 0 400 400"
+            width="400"
+          />
+        </div>
+      </div>
+      <p>
+        <span>
+          17
+        </span>
+        %
+      </p>
+    </div>
+    <div
+      class="sc-htpNat iZGEOS"
+    >
+      <h1>
+        <span>
+          17.0
+        </span>
+      </h1>
+      <h2>
+        Hydro
+      </h2>
+    </div>
+  </article>
+</div>
+`;

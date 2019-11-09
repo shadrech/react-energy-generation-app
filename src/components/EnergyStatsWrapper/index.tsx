@@ -1,10 +1,14 @@
-import React, { useContext } from "react";
-import { EnergyContext } from "../../contexts/EnergyContext";
+import React, { useEffect } from "react";
 import { Wrapper } from "./styles";
 import EnergyStatBox from "../EnergyStatBox";
+import { useEnergyContext } from '../../contexts/EnergyContext';
 
-export default () => {
-  const { data, loading, error } = useContext(EnergyContext);
+const EnergyStatsWrapper: React.FunctionComponent = () => {
+  const { data, loading, error, fetchData } = useEnergyContext()
+
+  useEffect(() => {
+    fetchData()
+  }, [])
 
   return (
     <Wrapper>
@@ -17,3 +21,5 @@ export default () => {
     </Wrapper>
   )
 }
+
+export default EnergyStatsWrapper;

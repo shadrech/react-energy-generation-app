@@ -29,7 +29,7 @@ export const StatBox = styled.article<StatBoxProps>`
   padding: 1rem;
   opacity: 0;
   animation: ${fadeIn} .7s ease-out forwards;
-  animation-delay: ${({ animationIndex }) => animationIndex ? animationIndex * 0.1 : 0}s;
+  animation-delay: ${({ animationIndex }) => animationIndex ? animationIndex * 0.3 : 0}s;
 
   ${breakpoint('tablet')`
     --width: 4;
@@ -53,7 +53,7 @@ export const ChartWrapper = styled.div`
     left: 50%;
     transform: translateX(-50%);
     font-family: Roboto;
-    color: #313030;
+    color: #525454;
     font-size: 1rem;
   }
 `;

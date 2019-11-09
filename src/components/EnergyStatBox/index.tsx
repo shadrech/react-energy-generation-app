@@ -2,7 +2,7 @@ import React from 'react'
 import CountUp from 'react-countup'
 import { VictoryPie } from "victory"
 import { StatBox, ChartWrapper, TextWrapper } from './styles'
-import { GenerationMix } from '../../contexts/EnergyContext'
+import { GenerationMix } from '../../hooks/useEnergy';
 
 interface Props {
   generation: GenerationMix
@@ -10,7 +10,7 @@ interface Props {
 }
 
 const EnergyStatBox: React.FunctionComponent<Props> = ({ generation: { perc, fuel }, animationIndex }) => {
-  const countDelay = animationIndex ? (animationIndex * 0.1) + 1 : 0;
+  const animationDelay = animationIndex ? (animationIndex * 0.3) + 1 : 0;
   return (
     <StatBox animationIndex={animationIndex}>
       <ChartWrapper>
@@ -34,22 +34,14 @@ const EnergyStatBox: React.FunctionComponent<Props> = ({ generation: { perc, fue
           ]}
           labels={[]}
           innerRadius={180}
-          animate={{
-            duration: 1000,
-            easing: 'exp',
-            onLoad: {
-              before: () => ({ _y: 0 })
-            }
-          }}
         />
         <p>
-          <CountUp end={Math.round(perc)} delay={countDelay} />%
+          <CountUp end={Math.round(perc)} delay={animationDelay} />%
         </p>
       </ChartWrapper>
       <TextWrapper>
           <h1>
-            {/* Preferrably here we would display actual number stat rather than percentage */}
-            <CountUp end={perc} delay={countDelay} decimals={1} />
+            <CountUp end={perc} delay={animationDelay} decimals={1} />
           </h1>
           <h2>{`${fuel[0].toUpperCase()}${fuel.slice(1)}`}</h2>
       </TextWrapper>

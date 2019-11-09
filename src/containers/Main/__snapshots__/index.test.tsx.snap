@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> renders as expected 1`] = `
+<div>
+  <div
+    data-test-id="context-provider"
+  >
+    <div>
+      EnergyStatsWrapper
+    </div>
+  </div>
+</div>
+`;
