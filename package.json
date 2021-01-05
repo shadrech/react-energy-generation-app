@@ -6,7 +6,7 @@
     "start": "webpack-dev-server --hot --progress --colors"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "react": "^16.11.0",
     "react-countup": "^4.2.3",
     "react-dom": "^16.11.0",
