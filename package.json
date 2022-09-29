@@ -12,7 +12,7 @@
     "react-dom": "^16.11.0",
     "styled-components": "^4.4.1",
     "styled-components-breakpoint": "^2.1.1",
-    "victory": "^33.1.2"
+    "victory": "^36.6.8"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
